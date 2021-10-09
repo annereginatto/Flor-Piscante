@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(28, 28, 28, 0.5), rgba(257, 257, 257, 0.5)), url("https://source.unsplash.com/KDg6MX6Wszs");
+    background-color: #f7f7f7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 20px;
+    font-family: 'Sacramento', cursive;
+    background: #FF7AF6;
+    background: -webkit-linear-gradient(to right, #FF7AF6 0%, #FF1493 100%);
+    background: -moz-linear-gradient(to right, #FF7AF6 0%, #FF1493 100%);
+    background: linear-gradient(to right, #FF7AF6 0%, #FF1493 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    color: #FF7AF6;
+    text-shadow: 4px 4px 1px mistyrose;
+}
+
+h1:hover {
+    transform: scale(1.010);
+    transition-duration: 1s;
+    background: #FF7AF6;
+    background: -webkit-linear-gradient(to right, #FF7AF6 0%, #D402DB 100%);
+    background: -moz-linear-gradient(to right, #FF7AF6 0%, #D402DB 100%);
+    background: linear-gradient(to right, #FF7AF6 0%, #D402DB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    cursor: default;
+    font-family: 'Nanum Pen Script', cursive;
+    letter-spacing: 4px;
+    font-size: 24px;
+    border: 3px dotted rgba(255, 228, 225, 0.5);
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    color: deeppink;
+    border-radius: 0 20px 0 20px;
+    background-color: rgba(255, 228, 225, 0.5);
+}
+
+h3:hover {
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+    border: 3px dotted rgba(255, 20, 147, 0.5);
+    color: mistyrose;
+    background-color:rgba(255, 20, 147, 0.5);
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    cursor: default;
+    font-family: "Gloria Hallelujah", cursive;
+    letter-spacing: 3px;
+    margin: 30px 0 5px 0;
+    color: mistyrose;
+  }
+  
+  footer p:hover {
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+    color: deeppink;
+  }
+
+  .icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  #linkedin, #github, #discord, #codepen, #mail {
+      color: mistyrose;
+      padding: 0 10px;
+  }
+
+  #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
+      color: deeppink;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: mistyrose;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: hotpink;
+    border-radius: 20px;
+  }
